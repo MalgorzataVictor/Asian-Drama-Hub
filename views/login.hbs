@@ -1,0 +1,44 @@
+{{> welcomemenu id='login' }}
+<div class="ui center aligned middle aligned segment">
+  <h2 class="ui header welcome-header">Log-in</h2>
+ <section class="ui segment">
+<form class="ui stacked left aligned segment form" id="loginForm" action="/authenticate" method="POST">
+  <h3 class="ui header">Log-in</h3>
+  <div class="field">
+    <label for="email">Email</label> <input placeholder="Email" name="email" autofocus required>
+  </div>
+  <div class="field">
+    <label for="password">Password</label> <input type="password"  name="password" required >
+  </div>
+  <button class="ui blue submit button">Login</button>
+</form>
+</section>
+  <section class = "footer">
+  Malgorzata Victor @ 2024
+  </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    
+    function showLoggingInMessage() {
+      Swal.fire({
+        title: 'Logging in',
+        icon: 'info',
+        showConfirmButton: false,
+        timer: 1500 
+      });
+    }
+
+    // Attach the function to the login form submit event
+    const loginForm = document.getElementById('loginForm');
+    if (loginForm) {
+      loginForm.addEventListener('submit', function (event) {
+        
+        showLoggingInMessage();
+
+      });
+    }
+  });
+</script>

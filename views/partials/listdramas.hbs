@@ -1,0 +1,42 @@
+
+  {{#if series}}
+  <table class="ui fixed striped table">
+    <thead>
+      <tr>
+     <th class="two wide">Name 📚</th>
+        <th class="one wide">Creation Year 📅</th>
+        <th class="two wide">Genres 🎭</th>
+        <th class="one wide">Episode Count 🔢</th>
+        <th class="one wide">Release Year 📆</th>
+        <th class="two wide">Actors 👥</th>
+        <th class="two wide">Soundtracks 🎵</th>
+        <th class="one wide">Image 🖼️</th>
+        <th class="one wide"></th>
+        <th class="one wide"></th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each series}}
+        {{> listOneDrama dramaId=../id}}
+        {{> editDrama dramaId=../id}}
+                
+      
+      <script>
+      document.querySelector("#showEdit{{@index}}").addEventListener ('click', () => {
+            document.querySelector("#drama{{@index}}").style.display = "none";
+            document.querySelector("#edit{{@index}}").style.display = "table-row";
+       })
+      document.querySelector("#hideEdit{{@index}}").addEventListener ('click', () => {
+            document.querySelector("#drama{{@index}}").style.display = "table-row";
+            document.querySelector("#edit{{@index}}").style.display = "none";
+       })
+</script>
+      
+      {{/each}}
+    </tbody>
+  </table>
+{{else}}
+  <h3 class="ui message">
+    Empty {{type}} TV Drama list!
+  </h3>
+{{/if}}

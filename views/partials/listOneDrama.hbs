@@ -1,0 +1,36 @@
+<tr id="drama{{@index}}">
+  <td>
+    {{capitalizeFirstLetter name}}
+  </td>
+  <td>
+    {{year_created}}
+  </td>
+  <td>
+    {{genres}}
+  </td>
+  <td>
+    {{episode_count}}
+  </td>
+  <td>
+    {{release_year}}
+  </td>
+  <td>
+    {{actors}}
+  </td>
+  <td>
+    {{soundtracks}}
+  </td>
+   <td class="ui small image">
+       <img src="{{dramaImage}}">
+  </td>
+<td class="center aligned">
+              <button type = "submit" class="ui blue icon button"  id="showEdit{{@index}}">
+                <i class="ui pencil icon"></i>
+              </button>
+            </td>
+            <td class="center aligned">
+               <a href="/dramas/{{dramaId}}/deleteDrama/{{id}}"  class="ui red icon button">
+                <i class="ui trash icon"></i>
+              </a>
+          </td>
+        </tr>

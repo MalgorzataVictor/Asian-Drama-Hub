@@ -1,0 +1,37 @@
+<form class="ui stacked segment form" action="/dramas/{{id}}/adddrama" method="POST" enctype="multipart/form-data">
+  <div class="seven fields">
+    <div class="field">
+      <label>Name</label>
+      <input type="text" name="name" autofocus required title="Please include a valid Name" placeholder="📚">
+    </div>
+    <div class="field">
+      <label>Creation Year</label>
+      <input type="text" name="creationyear" required title="Please include a valid Creation Year" placeholder="📅" pattern="\d{4}" maxlength="4">
+    </div>
+    <div class="field">
+      <label>Genres</label>
+      <input type="text" name="genres" autofocus required title="Please include valid Genres" placeholder="🎭">
+    </div>
+    <div class="field">
+      <label>Episode Count</label>
+      <input type="text" name="episodecount" autofocus required title="Please include a valid Episode Count" placeholder="🔢" pattern="\d+">
+    </div>
+    <div class="field">
+      <label>Release Year</label>
+      <input type="text" name="releaseyear" autofocus required title="Please include a valid Release Year" placeholder="📆" pattern="\d{4}" maxlength="4">
+    </div>
+    <div class="field">
+      <label>Actors</label>
+      <input type="text" name="actors" autofocus required title="Please include valid Actors" placeholder="👥">
+    </div>
+    <div class="field">
+      <label>Soundtracks</label>
+      <input type="text" name="soundtracks" autofocus required title="Please include valid Soundtracks" placeholder="🎵">
+    </div>
+    <div class="field">
+      <label>Image</label>
+      <input placeholder="🖼️" type="file" name="dramaImage" required>
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Drama</button>
+</form>

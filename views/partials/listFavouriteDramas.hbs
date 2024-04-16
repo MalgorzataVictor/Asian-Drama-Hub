@@ -1,0 +1,29 @@
+{{#if dramas}}
+
+
+ 
+
+  {{#each dramas}}
+      <div class="ui centered cards">
+       
+
+  
+  {{> listOneSeries seriesId=../id}}
+  {{> editSeries seriesId=../id}}
+</div>
+  <script>
+      document.querySelector("#showEdit{{@index}}").addEventListener ('click', () => {
+            document.querySelector("#series-type{{@index}}").style.display = "none";
+            document.querySelector("#edit{{@index}}").style.display = "block";
+       })
+      document.querySelector("#hideEdit{{@index}}").addEventListener ('click', () => {
+            document.querySelector("#series-type{{@index}}").style.display = "flex";
+            document.querySelector("#edit{{@index}}").style.display = "none";
+       })
+</script>
+
+  
+  {{/each}}
+  
+ 
+{{/if}}

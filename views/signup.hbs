@@ -1,0 +1,38 @@
+{{> welcomemenu id="signup"}}
+<div class="ui center aligned middle aligned segment">
+  <h2 class="ui header welcome-header">Sign-Up</h2>
+ <section class="ui segment">
+
+<form class="ui stacked left aligned segment form" action="/register" method="POST" enctype="multipart/form-data">
+  <h3 class="ui header">Register</h3>
+  <div class="two fields">
+    <div class="field">
+      <label for="firstName">First Name</label>
+      <input placeholder="First Name" type="text"  name="firstName" autofocus required>
+    </div>
+    <div class="field">
+      <label for="lastName">Last Name</label>
+      <input placeholder="Last Name" type="text"  name="lastName" required>
+    </div>
+  </div>
+  <div class="field">
+    <label for="email">Email</label>
+    <input placeholder="Email" type="text" name="email" required>
+  </div>
+  <div class="field">
+    <label for="password">Password</label>
+    <input type="password" name="password" required>
+  </div>
+  <div class="field">
+    <label for="profilePicture">Profile Picture</label>
+    <input type="file" name="profilePicture" accept="image/*" required>
+  </div>
+  <button class="ui blue submit button">Submit</button>
+</form>
+   
+   
+  </section>
+  <section class = "footer">
+  Malgorzata Victor @ 2024
+  </section>
+</div>

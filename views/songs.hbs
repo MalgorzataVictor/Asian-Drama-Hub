@@ -1,0 +1,37 @@
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header welcome-header">
+    Songs
+  </h2>
+
+  <section class="ui segment">
+    {{#each songData}}
+    <section class="ui horizontal segments songs">
+      <div class="song-item">
+        <p>🎵{{soundtrack}}</p>
+      </div>
+      
+      <div class="ui small image">
+        <img src="{{songImage}}"> 
+      </div>
+      
+      
+      <form class="ui form" action="/dramas/{{id}}/series/{{dramaId}}/addSongImage" method="POST" enctype="multipart/form-data">
+      
+      <div class="field">
+      <label>🎵🖼️</label>
+      <input placeholder="🎵🖼️" type="file" name="songImage" required>
+    </div>
+<button class="ui  blue submit button">Add Song Image</button>
+      </form>
+      
+      
+    </section>
+    {{/each}}
+  </section>
+
+  <section class="footer">
+    Malgorzata Victor @ 2024
+  </section>
+</section>
