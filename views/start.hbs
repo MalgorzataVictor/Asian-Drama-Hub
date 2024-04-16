@@ -1,0 +1,183 @@
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header welcome-header"> Welcome to the Asian TV Dramas App {{fullname}}!!</h2>
+
+  <section class="ui left aligned middle aligned segment">
+    <p>
+      This website is a platform dedicated to Asian TV Dramas, featuring a diverse selection of series from different Asian countries such as:
+      Immerse yourself in the captivating stories and cultural richness of dramas from China, Japan, South Korea, Thailand, and more. Our curated collection showcases the best of Asian television, offering a unique and enriching viewing experience for drama enthusiasts worldwide.
+    </p>
+    <br>
+    <div class="ui equal width grid center aligned">
+      <div class="column">
+        <div class="ui small centered image">
+          <img src="https://cdn.glitch.global/d3badb48-c4d7-4ae4-8581-344f2f2cf2c8/china.png?v=1709070221242">
+        </div>
+        <div class="ui center aligned header">
+          China
+        </div>
+      </div>
+      <div class="column">
+        <div class="ui small centered image">
+          <img src="https://cdn.glitch.global/d3badb48-c4d7-4ae4-8581-344f2f2cf2c8/japan.png?v=1709070222368">
+        </div>
+        <div class="ui center aligned header">
+          Japan
+        </div>
+      </div>
+      <div class="column">
+        <div class="ui small centered image">
+          <img src="https://cdn.glitch.global/d3badb48-c4d7-4ae4-8581-344f2f2cf2c8/south-korea.png?v=1709070224361">
+        </div>
+        <div class="ui center aligned header">
+          South Korea
+        </div>
+      </div>
+      <div class="column">
+        <div class="ui small centered image">
+          <img src="https://cdn.glitch.global/d3badb48-c4d7-4ae4-8581-344f2f2cf2c8/thailand.png?v=1709070227295">
+        </div>
+        <div class="ui center aligned header">
+          Thailand
+        </div>
+      </div>
+    </div>
+    <br>
+    <p>
+      Explore a diverse array of popular Asian TV dramas on our platform, delving into comprehensive details such as genre, episode count, release year, and the ensemble of talented actors.
+      Immerse yourself in the narratives and discover noteworthy soundtracks that add depth and emotion to each series.
+      Uncover the richness of each drama as you navigate through our user-friendly interface, making your viewing experience both informative and enjoyable.
+    </p>
+    <br>
+    <section class="ui container">
+      <div class="ui equal width grid middle aligned">
+        <div class="row">
+          <div class="column">
+            <!-- Left Carousel -->
+            <div id="imageCarousel1" class="ui medium centered images">
+              <img src="https://cdn.glitch.global/b0ba2a4d-6932-4f79-8cb2-4161611cd0bc/f4thailand.jpg?v=1713120439337" class="ui image">
+            </div>
+          </div>
+
+          <div class="ui center aligned column">
+            <blockquote>
+              Explore Asian drama magic! 🪄
+            </blockquote>
+          </div>
+
+          <div class="column">
+            <!-- Right Carousel -->
+            <div id="imageCarousel2" class="ui medium centered images">
+              <img src="https://cdn.glitch.global/b0ba2a4d-6932-4f79-8cb2-4161611cd0bc/alchemyofsouls.jpg?v=1713120447317" class="ui image">
+            </div>
+          </div>
+        </div>
+      </div>
+  <div>
+     <h3>
+    Statistics of Drama App 📊
+  </h3>
+    
+      </div>
+<div class="ui five statistics" style="margin-top: 20px; display: grid; grid-template-columns: repeat(3, 1fr); border: 2px solid grey; border-radius: 2px; padding: 10px;"> 
+  <div class="statistic green">
+    <div class="value">
+      <i class="user circle icon"></i>
+    </div>
+    <div class="label">
+      <div class="sub label">Total number of users:</div>
+      <span class="dynamic-content">{{ numUsers }}</span>
+    </div>
+  </div>
+
+  <div class="statistic blue">
+    <div class="value">
+      <i class="tv icon"></i>
+    </div>
+    <div class="label">
+      <div class="sub label">Total number of series:</div>
+      <span class="dynamic-content">{{ totalNumSeries }}</span>
+    </div>
+  </div>
+
+  <div class="statistic green">
+    <div class="value">
+      <i class="film icon"></i>
+    </div>
+    <div class="label">
+      <div class="sub label">Total number of dramas:</div>
+      <span class="dynamic-content">{{ totalNumDramas }}</span>
+    </div>
+  </div>
+
+  <div class="statistic blue">
+    <div class="value">
+      <i class="chart area icon"></i>
+    </div>
+    <div class="label">
+      <div class="sub label">Average number of items per user:</div>
+      <span class="dynamic-content">{{roundToWholeNumber avgItemsPerUser }}</span>
+    </div>
+  </div>
+
+  <div class="statistic green">
+    <div class="value">
+      <i class="angle double up icon"></i>
+    </div>
+    <div class="label">
+      <div class="sub label">Name of user with most items:</div>
+      <span class="dynamic-content">{{ maxItemsUser.firstName }} {{lowercase maxItemsUser.lastName }}</span>
+    </div>
+  </div>
+
+  <div class="statistic blue">
+    <div class="value">
+      <i class="angle double down icon"></i>
+    </div>
+    <div class="label">
+      <div class="sub label">Name of user with least items:</div>
+      <span class="dynamic-content">{{ minItemsUser.firstName }} {{lowercase minItemsUser.lastName }}</span>
+    </div>
+  </div>
+</div>
+
+      
+    </section>
+    <div class="features">
+      <h3>
+        If you want to be the first to know when new dramas are released and get email reminders, click the button below to subscribe!
+      </h3>
+      <button id="fancyPopupButton"> Notify Me! 🔔</button>
+    </div>
+  </section>
+
+  
+      <section class = "footer">
+  Malgorzata Victor @ 2024
+  </section>
+ 
+
+</section>
+
+<section class="footer">
+  Malgorzata Victor @ 2024
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    function showSubmittedMessage() {
+      Swal.fire({
+        title: 'Submitted 😃',
+        text: 'You will be notified!',
+        icon: 'success'
+      });
+    }
+
+    const fancyPopupButton = document.getElementById('fancyPopupButton');
+    if (fancyPopupButton) {
+      fancyPopupButton.addEventListener('click', showSubmittedMessage);
+    }
+  });
+</script>

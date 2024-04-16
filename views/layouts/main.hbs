@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set the character set for the document -->
+    <meta charset="utf-8" />
+    <!-- Configure the viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Set the favicon for the webpage -->
+    <link rel="icon" href="https://cdn.glitch.global/d3badb48-c4d7-4ae4-8581-344f2f2cf2c8/hanbok.png?v=1709295314850" />
+    <!-- Set the title of the webpage -->
+    <title>{{title}}</title>
+
+    <!-- Import the SemanticUI stylesheet from CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    
+    <!-- Import the custom stylesheet for the webpage -->
+    <link rel="stylesheet" href="/style.css">   
+  </head>
+  <body>
+    <!-- Render the dynamic content of the webpage -->
+    {{{body}}}
+   
+    <!-- Include the custom JavaScript file for carousel functionality -->
+    <script src="/carousel.js" defer></script>
+    
+    <!-- Import jQuery from CDN with integrity check -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous">
+    </script>
+    
+    <!-- Import SemanticUI JavaScript and jQuery from CDN with integrity check -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+      crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
+    
+    <!-- Import the custom JavaScript file for the webpage -->
+    <script src="/script.js"></script>
+  </body>
+</html>

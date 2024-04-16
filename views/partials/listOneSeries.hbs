@@ -1,0 +1,83 @@
+
+  <div class="ui card" id = "series-type{{@index}}">
+  
+       <div class="ui big image">
+          <img src="{{picture}}">
+        </div>
+     
+       
+       
+            <div class="content">
+            
+ <a class="header">{{uppercase type}}</a>
+           
+          </div>
+        
+     
+      
+ 
+     
+       <div class="extra content">
+         
+          {{#if dramas}}
+            {{#each dramas}}
+              <input type="hidden" name="dramas" value="{{this}}">
+            {{/each}}
+          {{/if}}
+          <input type="hidden" name="date" value="{{date}}">
+          
+          
+          
+          {{#if series.length}}
+           <p>📺Number of series: {{series.length}} </p>
+          {{else}}
+            <p>📺Empty Dramas!</p>
+          {{/if}}
+          
+          {{#if date}}
+            <br>
+            🗓️
+            Added on <i>{{formatDate date}}</i>
+          {{/if}}
+        
+    
+      
+      
+   
+        
+         <div class="ui buttons" style="padding-top: 20px;">
+             
+            <button class="ui blue icon button" title="Edit series" id="showEdit{{@index}}">
+              <i class="ui pencil icon"></i>
+            </button>
+            
+             <a href="/dashboard/deleteSeries/{{id}}" class="ui red icon button"> 
+              <i class="trash icon"></i>
+            </a>
+            <button class="ui yellow button" onclick="window.location.href='/dramas/{{id}}'">View 👀</button>
+
+           {{#if favourited}}
+            
+            <button class="ui favourite pink button" data-drama-id="{{id}}" onclick="window.location.href='/removeFavourtie/{{id}}'">
+              <i class="star icon"></i> 
+              <span class="button-text">Remove</span>
+            </button>
+            
+              {{else}}
+            
+            <button class="ui favourite grey button" data-drama-id="{{id}}" onclick="window.location.href='/addFavourtie/{{id}}'">
+              <i class="star icon"></i> 
+              <span class="button-text">Add</span>
+              
+            </button>
+            
+            {{/if}}
+          
+            
+            
+          </div>
+        
+    </div>
+    
+  </div>
+

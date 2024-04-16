@@ -1,0 +1,81 @@
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header welcome-header">About App</h2>
+  <section class="ui segment">
+   <section class="ui grid" style="margin-left: 40px; margin-right: 40px;">
+      <div class="eight wide column">
+        <h3>Our Location</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1452.7445651581372!2d-6.973852228354763!3d52.23947120988099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4842bf35741fe7db%3A0xa00c7a99731cee0!2sKnockroe%2C%20Passage%20East%2C%20Co.%20Waterford!5e0!3m2!1sen!2sie!4v1709250216102!5m2!1sen!2sie" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+{{#with info}}
+      <div class="eight wide column">
+        <h3>Our Details</h3>
+        <div class="details">
+          <h3>Find us here:</h3>
+          <p>👤 Name: {{name}}</p>
+          <p>✉️ Email: {{email}}</p>
+          <p>☎️ Phone: {{phone}}</p>
+          <p>🏡 Address: {{address}}</p>
+          <p>🌐 Website:{{website}}</p>
+          <p>📱 Social {{socialMedia}}</p>
+        </div>
+      </div>
+     
+     {{/with}}
+    </section>
+        <h2>
+     📈  Statistics only for {{fullname}} 
+    </h2>
+
+  <div class="ui five statistics" style="margin-top: 40px;">
+  <div class="statistic green">
+            <div class="value">
+              <i class="tv icon"></i> 
+            </div>
+            <div class="label">
+              <div class="sub label">No. Series:</div> <span class="dynamic-content"> {{ displayNumSeries}} </span>
+            </div>
+          </div>
+
+          <div class="statistic blue">
+            <div class="value">
+              <i class="film icon"></i> 
+            </div>
+            <div class="label">
+              <div class="sub label">No. Dramas:</div> <span class="dynamic-content">{{displayNumDramas}} </span>
+            </div>
+          </div>
+    <div class="statistic green">
+            <div class="value">
+              <i class="chart line icon"></i> 
+            </div>
+            <div class="label">
+              <div class="sub label">Avg No Dramas/Series</div>  <span class="dynamic-content"> {{roundToWholeNumber AvgDramasPerSeries}}</span>
+            </div>
+          </div>
+    <div class="statistic blue">
+            <div class="value">
+              <i class="sort amount up icon"></i> 
+            </div>
+            <div class="label">
+              <div class="sub label">Series with most dramas:</div> <span class="dynamic-content">  {{lowercase MaxSeries}} </span>
+            </div>
+          </div>
+    <div class="statistic green">
+            <div class="value">
+              <i class="sort amount down icon"></i> 
+            </div>
+            <div class="label">
+              <div class="sub label">Series with least dramas:</div> <span class="dynamic-content">  {{lowercase MinSeries}} </span>
+            </div>
+          </div>
+</div>
+
+
+  </section>
+
+  <section class="footer">
+    <p>&copy; 2024 Malgorzata Victor</p>
+  </section>
+</section>

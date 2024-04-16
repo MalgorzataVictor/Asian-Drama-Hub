@@ -1,0 +1,80 @@
+<form
+  class ="hide"    
+  action="/dashboard/{{dramaId}}/updateSeries/{{id}}"
+  method="POST"
+  id="edit{{@index}}"
+>
+  
+    <div class="ui card" >
+      
+   <div class="ui big image">
+          <img src="{{picture}}">
+        </div>
+     
+
+       <div class="content">
+
+        <span class="ui input">
+          <input
+            type="text"
+            name="type"
+            autofocus
+            required
+            title="Please include a valid Type"
+            placeholder="Type"
+            value="{{type}}"
+          />
+        </span>
+     
+    
+ </div>
+     <div class="extra content">
+
+
+     
+      {{#if dramas}}
+        {{#each dramas}}
+          <input type="hidden" name="dramas" value="{{this}}" />
+        {{/each}}
+      {{/if}}
+      <input type="hidden" name="date" value="{{date}}" />
+
+      {{#if series.length}}
+        <p>📺Number of series: {{series.length}}</p>
+      {{else}}
+        <p>📺Empty Dramas!</p>
+      {{/if}}
+
+      {{#if date}}
+        <br />
+        🗓️ Added on
+        <i>{{formatDate date}}</i>
+      {{/if}}
+
+   
+     <div class="ui buttons" style="padding-top: 10px;">
+        <div class="center aligned">
+          <button
+            type="submit"
+            class="ui green icon button"
+            title="Save changes"
+          >
+            <i class="ui save icon"></i>
+          </button>
+        </div>
+        <div class="center aligned">
+          <button
+            type="reset"
+            class="ui red icon button"
+            id="hideEdit{{@index}}"
+            title="Exit without saving"
+          >
+            <i class="ui undo icon"></i>
+          </button>
+        </div>
+      </div>
+
+      </div>
+  </div>
+ 
+</form>

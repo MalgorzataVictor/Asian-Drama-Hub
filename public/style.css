@@ -1,0 +1,391 @@
+/* Global styles for the entire document */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Georgia", sans-serif;
+  background-color: white;
+}
+
+body {
+  margin: 2em;
+  background-color: white;
+  color: black;
+}
+
+/* Styles for specific segments and paragraphs */
+.ui.left.aligned.middle.aligned.segment p {
+  text-align: justify;
+}
+
+/* Navigation menu styles */
+nav.ui.menu {
+  border: 5px solid #a1c057;
+  font-size: 20px;
+}
+
+nav.ui.menu a {
+  color: #a1c057;
+}
+
+/* Header segment styles */
+.ui.center.aligned.middle.aligned.segment {
+  background-color: rgba(161, 192, 87, 0.8);
+  padding: 1em;
+}
+
+
+/* Styles for right menu items */
+.right.menu a.item {
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Styles for the right menu items */
+.right.menu a.item:hover {
+  color: #a1c057;
+  font-weight: bold;
+}
+
+/* Styles for specific headers within a segment */
+.ui.center.aligned.middle.aligned.segment .ui.header.welcome-header {
+  color: white;
+  font-family: "Georgia", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Menu styles */
+.ui.menu {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styles */
+.ui.menu img {
+  max-width: 40px;
+  margin-right: 10px;
+}
+
+/* Header text styles */
+.ui.header.item a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+
+.right.menu a.active {
+  font-weight: bold !important;
+  background-color: #2980b9;
+  color: white;
+  border-radius: 5px;
+}
+
+.name{
+  font-size: 30px !important;
+  font-weight: bold;
+  color: #3498db;
+  padding-left:0px;
+  margin:0px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}
+
+
+.profilepic{
+  padding-top:5px;
+  padding-left:10px;
+  padding-right:5px;
+  line-height:30px;
+  font-weight:bold;
+}
+
+/* Blockquote styles */
+blockquote {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.blue .value i {
+  color: #3498db !important; 
+  text-shadow: 0 0 5px grey;
+}
+
+.green .value i {
+  color:  rgb(161, 192, 87) !important; 
+  text-shadow: 0 0 5px grey;
+}
+
+/* Styles for features section */
+.features {
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+/* Styles for h2 elements */
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  padding-top:60px;
+  padding-bottom:10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Button styles for features section */
+.features button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for button */
+.features button:hover {
+  background-color: #2980b9;
+}
+
+/* Additional button styles */
+.ui.button {
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for button */
+.ui.button:hover {
+  background-color: #2980b9;
+}
+
+
+
+/* Styles for horizontal segments */
+.ui.horizontal.segments {
+  display: flex;
+  background-color: white;
+}
+
+/* Styles for individual segments within a horizontal segment */
+.ui.horizontal.segments .ui.segment {
+  flex: 1;
+  text-align: center;
+  border: none;
+}
+
+/* Styles for headers and paragraphs within horizontal segments */
+.ui.horizontal.segments h3.ui.header,
+.ui.horizontal.segments p {
+  margin-bottom: 10px;
+}
+
+/* Button styles within horizontal segments */
+.ui.horizontal.segments button {
+/*   background-color: #3498db; */
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for buttons within horizontal segments */
+.ui.horizontal.segments button:hover {
+  background-color:black;
+}
+
+
+
+
+/* Footer styles */
+.footer {
+  font-style: italic;
+}
+
+/* Styles for UI cards */
+.ui.cards {
+  padding: 20px;
+  padding-left:40px;
+  padding-right:40px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Styles for individual UI cards */
+.ui.cards .ui.card {
+  width: 350px; 
+  height: 600px;
+  margin: 10px;
+  transition: box-shadow 0.3s ease;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.hide{
+    display: none;
+}
+
+/* Hover effect for UI cards */
+.ui.cards .ui.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for image, content, and additional content within UI cards */
+.ui.cards .ui.card .image {
+  overflow: hidden;
+  border-bottom: 1px solid #dddddd;
+}
+
+.ui.cards .ui.card img {
+  width: 100%;
+  height: auto;
+}
+
+.ui.cards .ui.card .content {
+  padding: 15px;
+}
+
+.ui.cards .ui.card h3.header {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.custom-card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.custom-card:hover {
+  transform: translateY(-10px); /* Floats the card up on hover */
+  background-color: rgba(161, 192, 87, 0.3); /* Change background color to a lighter shade on hover */
+  border-radius: 15px; /* Increase border radius on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add a bolder and black box shadow on hover */
+}
+
+.custom-card .content {
+  font-size: 20px !important;
+  font-weight: bold;
+  color: black;
+}
+
+/* Add any other custom styling as needed */
+
+
+
+
+
+/* Table styles */
+.ui.fixed.striped.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table header styles */
+.ui.fixed.striped.table th {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Table row styles */
+.ui.fixed.striped.table tbody tr {
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for table rows */
+.ui.fixed.striped.table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Table cell styles */
+.ui.fixed.striped.table td {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+}
+
+/* First cell in a table row styles */
+.ui.fixed.striped.table td:first-child {
+  font-weight: bolder;
+}
+
+/* Border style for specific elements */
+.with-border {
+  border: 2px solid #3498dbs;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+/* Styles for "Our Details" content */
+.details {
+  min-height: 300px;
+  background-color: rgba(52, 152, 219, 0.3);
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Styles for statistics section */
+.statistics .statistic .value i {
+  padding-top:10px;
+  
+  color: #3498db;
+}
+
+.statistics .statistic .label {
+   padding-top:10px;
+  font-size: 15px;
+   padding-bottom:20px;
+  
+}
+.dynamic-content {
+    font-size: 30px;
+  }
+
+
+/* Additional styling for specific dynamic texts */
+.dynamic-text {
+  font-size: 15px;
+}
+
+/* Styles for horizontal segments with songs class */
+.ui.horizontal.segments.songs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 20px;
+}

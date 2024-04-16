@@ -1,0 +1,23 @@
+<form class="ui stacked segment form" action="/dashboard/addseries" method="POST" enctype="multipart/form-data">
+  <div class="field">
+    <label>Write the type of series you want to add 😊</label>
+    <input placeholder="Type" type="text" name="type" required>
+  </div>
+  <div class="field">
+    <label>Image</label>
+    <input placeholder="Image" type="file" name="picture" required>
+</div>
+         <td class="center aligned">
+      <button type = "submit"  class="ui green icon button" 
+	          title="Save changes">
+        <i class="ui save icon"></i>
+      </button>
+    </td>
+         <td class="center aligned">
+      <button type = "reset" class="ui red icon button"  id="hideEdit{{@index}}"  
+	          title="Exit without saving">
+        <i class="ui undo icon"></i>
+      </button>
+    </td>
+  
+</form>

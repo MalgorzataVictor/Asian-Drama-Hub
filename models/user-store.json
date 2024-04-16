@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "firstName": "Lisa",
+      "lastName": "Manoban",
+      "email": "lisa@manoban.com",
+      "password": "blackpink",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "profilePicture": "https://res.cloudinary.com/webappmv/image/upload/v1713222916/lisaPP_dkabtq.jpg",
+      "favourites": [
+        "3bb5a1e5-394d-47d4-87ee-57de44cf4426",
+        "088266e6-6bd6-4812-926c-61a8a0c9512b"
+      ]
+    },
+    {
+      "firstName": "Rose",
+      "lastName": "Park",
+      "email": "rose@park.com",
+      "password": "blackpink",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "profilePicture": "https://res.cloudinary.com/webappmv/image/upload/v1713222917/rosePP_pj1wpp.png",
+      "favourites": [
+        "42e355b1-3625-473b-b1df-737d1dcca1d0"
+      ]
+    },
+    {
+      "firstName": "Jisoo",
+      "lastName": "Kim",
+      "email": "jisoo@kim.com",
+      "password": "blackpink",
+      "id": "b3ae09f4-9da8-4e06-b479-87b6da2adfd7",
+      "profilePicture": "https://res.cloudinary.com/webappmv/image/upload/v1713222913/jisooPP_kswcdk.png",
+      "favourites": [
+        "ab2a8a31-f36e-4245-860a-e73e26a0b174",
+        "c5a1d461-06df-47f6-b2fc-e7557b54fb9b"
+      ]
+    },
+    {
+      "firstName": "Jennie",
+      "lastName": "Kim",
+      "email": "jennie@kim.com",
+      "password": "blackpink",
+      "id": "d782a5b7-9015-4ff6-97b0-2874034f9f82",
+      "profilePicture": "https://res.cloudinary.com/webappmv/image/upload/v1713222913/jenniePP_pc6ota.png",
+      "favourites": [
+        "ff99a0c6-8b62-4119-9fc8-f041bba9a8b4",
+        "b9547227-b247-473b-98b4-ce79a439e3aa",
+        "f51cf31c-f6ea-49ed-845d-def726397e3d"
+      ]
+    },
+    {
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@test.com",
+      "password": "test",
+      "id": "f6cd5792-1bff-49f1-8294-404f2ff6fad3",
+      "profilePicture": "https://res.cloudinary.com/webappmv/image/upload/v1713222912/hanniPP_sjdric.jpg",
+      "favourites": [
+        "cdf601e9-7471-4ddb-946a-843624bd204f",
+        "1e12c2f8-6ab0-4b74-9cf5-710905c6d43a"
+      ]
+    },
+    {
+      "firstName": "Yun Jin",
+      "lastName": "Huh",
+      "email": "huh@yun-jin.com",
+      "password": "lesserafim",
+      "id": "0f8962be-850b-42be-842a-3063cfc6d563",
+      "profilePicture": "http://res.cloudinary.com/webappmv/image/upload/v1713285781/s88cbvotskb8ljfwziiv.png",
+      "favourites": [
+        "1bbf1015-d13c-4474-b710-44d71f1eb5c7"
+      ]
+    },
+    {
+      "firstName": "Krzysztof",
+      "lastName": "Smith",
+      "email": "Ksmith@gmail.com",
+      "password": "dupa123",
+      "id": "a3ff5ca5-f5b6-4825-86b2-53a4fe5433b8",
+      "profilePicture": "http://res.cloudinary.com/webappmv/image/upload/v1713296326/iyiavsjqik7gtyokg7ih.svg",
+      "favourites": [
+        "88b47ad5-c612-4b06-ab17-f579ed175b89"
+      ]
+    }
+  ]
+}

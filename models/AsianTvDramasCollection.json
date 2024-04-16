@@ -1,0 +1,656 @@
+{
+  "AsianTVDramas": [
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "1854d6f4-67ba-4485-b912-dfb67bc3347f",
+      "type": "Korean",
+      "series": [
+        {
+          "id": "af2bc811-8b5a-4d38-9595-3b9a379fc811",
+          "name": "Goblin",
+          "year_created": "2016",
+          "genres": "Fantasy, Romance",
+          "episode_count": "16",
+          "release_year": "2017",
+          "actors": "Gong Yoo, Kim Go-eun, Lee Dong-wook, Yoo In-na",
+          "soundtracks": "Stay With Me by Chanyeol & Punch",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_3_fearde.png",
+          "songImage": "http://res.cloudinary.com/webappmv/image/upload/v1713291419/rgixrstfywl1rej4k0va.jpg"
+        },
+        {
+          "id": "618f7a35-d81f-46af-84f9-992a21f0530a",
+          "name": "Vincenzo",
+          "year_created": "2021",
+          "genres": "Crime, Comedy, Romance",
+          "episode_count": "20",
+          "release_year": "2021",
+          "actors": " Song Joong-ki, Jeon Yeo-been, Ok Taec-yeon",
+          "soundtracks": "Adrenaline by AleXa",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_n0octo.png"
+        }
+      ],
+      "date": "2024-04-14T14:57:03.577Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/mang_ctmvrb.png",
+      "favourited": false
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "3bb5a1e5-394d-47d4-87ee-57de44cf4426",
+      "type": "Chinese",
+      "series": [
+        {
+          "id": "889ef770-9898-4a1c-8ac0-55fa374d38f6",
+          "name": "Hidden Love",
+          "year_created": "2022",
+          "genres": "Romance, Comedy",
+          "episode_count": "25",
+          "release_year": "2023",
+          "actors": "Zhao Lu Si, Chen Zhe Yuan",
+          "soundtracks": "I Have Someone I Like by Zhao Lu Si",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_9_r07kwm.png",
+          "songImage": "http://res.cloudinary.com/webappmv/image/upload/v1713291839/xkg1kaxswjueyuddgxwv.jpg"
+        },
+        {
+          "id": "5772bee8-6184-45e3-8731-506671b22ff9",
+          "name": "Our Secret",
+          "year_created": "2020",
+          "genres": "Romance",
+          "episode_count": "25",
+          "release_year": "2021",
+          "actors": "Chen Zhe Yuan, Rainbow Xu",
+          "soundtracks": "Always, Always, Love You by Li Xin Yi",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_4_x73g6k.png"
+        }
+      ],
+      "date": "2024-04-14T14:57:31.223Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/koya_nayo8g.png",
+      "favourited": true
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "088266e6-6bd6-4812-926c-61a8a0c9512b",
+      "type": "Thai",
+      "series": [
+        {
+          "id": "fd70c3f1-db0d-47c3-8281-c8a84ce9f317",
+          "name": "F4 Thailand",
+          "year_created": "2022",
+          "genres": "Romance, Drama",
+          "episode_count": "16",
+          "release_year": "2022",
+          "actors": "Tontawan Tantivejakul, Vachirawit Chivaaree, Jirawat Sutivanichsak",
+          "soundtracks": "Who am I by Various",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_5_wfxjyj.png"
+        },
+        {
+          "id": "a8e21a2b-12b4-4f3d-8df3-18046c5bf4da",
+          "name": "Full House",
+          "year_created": "2014",
+          "genres": "Romance, Comedy",
+          "episode_count": "20",
+          "release_year": "2015",
+          "actors": " Mike D. Angelo, Aom Sucharat Manaying, Pim Pimprapa Tangprabhaporn",
+          "soundtracks": "Full House Thai by Various",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_1_tzi99h.png"
+        },
+        {
+          "id": "1137cc54-ad08-4b72-939d-e5399f4a26bc",
+          "name": "Girl From Nowhere",
+          "year_created": "2018",
+          "genres": "Mystery, Thriller",
+          "episode_count": "13",
+          "release_year": "2018",
+          "actors": "Chicha Amatayakul, Thanawetch Siriwattanakul, Pajaree Nantarat",
+          "soundtracks": "Hug Me by The TOYS",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_6_u0p3sy.png"
+        },
+        {
+          "id": "c73bbb2b-110a-44cb-94dc-a5408f73e030",
+          "name": "Hua Jai Sila",
+          "year_created": "2019",
+          "genres": "Romance, Drama",
+          "episode_count": "27",
+          "release_year": "2019",
+          "actors": "Tor Thanapob Leeluttanakajorn, Fern Nopjira Lerkkajornnamkul, Punpun Sutatta Udomsilp",
+          "soundtracks": "My Heart by Musketeers",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_8_r5li01.png"
+        }
+      ],
+      "date": "2024-04-14T14:57:34.451Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/shooky_ad0cif.png",
+      "favourited": true
+    },
+    {
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "35c22a20-a6f2-4f38-906e-d86b386c2066",
+      "type": "Vietnamese",
+      "series": [
+        {
+          "id": "bec18f8c-20f3-4a7f-a0aa-599c87c41dc5",
+          "name": "Dreamy Eyes",
+          "year_created": "2020",
+          "genres": "Romance, Drama",
+          "episode_count": "24",
+          "release_year": "2021",
+          "actors": "Lê Lộc, Minh Trang, Huỳnh Anh",
+          "soundtracks": "Điều Anh Chưa Nói by Trúc Nhân",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_7_wrge4y.png"
+        }
+      ],
+      "date": "2024-04-14T15:23:07.399Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/cooky_ev8lly.png",
+      "favourited": false
+    },
+    {
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "87c328b4-1163-47b6-afbf-e2c5af91ba40",
+      "type": "Korean",
+      "series": [
+        {
+          "id": "92191eec-5a8f-4d37-830d-377010566a45",
+          "name": "Alchemy Of Souls",
+          "year_created": "2022",
+          "genres": "Fantasy, Romance",
+          "episode_count": "20",
+          "release_year": "2022",
+          "actors": "Lee Jae-wook, Go Youn-jung",
+          "soundtracks": "Alchemy of Souls by Nam Hye Seung, Jeon Jong Hyuk",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_2_znuvjr.png"
+        },
+        {
+          "id": "8decf46a-86e5-4cb9-bc37-668ae38a2444",
+          "name": "True Beauty",
+          "year_created": "2020",
+          "genres": "Romance, Drama, Comedy",
+          "episode_count": "16",
+          "release_year": "2021",
+          "actors": "Moon Ga-young, Cha Eun-woo, Hwang In-yeop",
+          "soundtracks": "Starlight by Kim Woo-seok",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_3_fearde.png"
+        },
+        {
+          "id": "4f5bed47-e76a-4fb4-acc1-c345fa82be0e",
+          "name": "W Two Worlds",
+          "year_created": "2016",
+          "genres": "Fantasy, Thriller",
+          "episode_count": "16",
+          "release_year": "2016",
+          "actors": "Lee Jong-suk, Han Hyo-joo, Jung Yoo-jin",
+          "soundtracks": "Where Are U by Jung Joon-young",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_n0octo.png"
+        },
+        {
+          "id": "371acc47-175a-4a22-920c-e9ce8399ef8c",
+          "name": "Tomorrow",
+          "year_created": "2021",
+          "genres": "Fantasy",
+          "episode_count": "16",
+          "release_year": "2022",
+          "actors": "Koo Ryeon,  Choi Jun-Woong, Park Joong-Gil",
+          "soundtracks": "Tomorrow OST by  J.Don, An Da Eun, Suran, Yoo Hwe Seung",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_9_r07kwm.png",
+          "songImage": "http://res.cloudinary.com/webappmv/image/upload/v1713292171/fdyydex1nzvr3hwhgru0.png"
+        },
+        {
+          "id": "29594ec9-a2e8-4033-a501-4f90bf6e86a2",
+          "name": "Nevertheless ",
+          "year_created": "2021",
+          "genres": "Romance, Drama",
+          "episode_count": "10",
+          "release_year": "2021",
+          "actors": "Han So-hee, Song Kang",
+          "soundtracks": "We're Already by Kimmuseum",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_4_x73g6k.png"
+        }
+      ],
+      "date": "2024-04-14T15:26:31.690Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219448/vqxdi0ybgr2okggh2i8f.png"
+    },
+    {
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "42e355b1-3625-473b-b1df-737d1dcca1d0",
+      "type": "Japanese",
+      "series": [
+        {
+          "id": "d85fb0ab-58a5-48fd-a879-496e2d43ef10",
+          "name": "Alice in Borderland",
+          "year_created": "2020",
+          "genres": "Thriller, Mystery, Survival",
+          "episode_count": "8",
+          "release_year": "2020",
+          "actors": "Kento Yamazaki, Tao Tsuchiya, Nijiro Murakami",
+          "soundtracks": "Necromancer by Queen Bee",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_5_wfxjyj.png"
+        },
+        {
+          "id": "a7377cfa-fa7a-4887-9518-b35a79f23e4b",
+          "name": "Good Morning Call",
+          "year_created": "2016",
+          "genres": "Romance, Comedy",
+          "episode_count": "17",
+          "release_year": "2017",
+          "actors": "Haruka Fukuhara, Shunya Shiraishi, Dori Sakurada",
+          "soundtracks": "Morning Call by Sayaka Kanda",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_1_tzi99h.png"
+        },
+        {
+          "id": "636ef527-26e1-4208-9960-d2ca65550b69",
+          "name": "Legal High",
+          "year_created": "2012",
+          "genres": "Comedy, Legal drama",
+          "episode_count": "11",
+          "release_year": "2013",
+          "actors": " Masato Sakai, Yui Aragaki, Eita",
+          "soundtracks": "Be Crazy by Shoko Nakagawa",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_6_u0p3sy.png"
+        }
+      ],
+      "date": "2024-04-14T15:26:36.478Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/mang_ctmvrb.png"
+    },
+    {
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "fc323a20-86a5-4bb5-bc01-0768a0b8f0a4",
+      "type": "Vietnamese",
+      "series": [
+        {
+          "id": "db68e877-ec88-4f7d-8606-008e776c52cb",
+          "name": "The Arbitrator",
+          "year_created": "2017",
+          "genres": "Mystery, Thriller",
+          "episode_count": "16",
+          "release_year": "2017",
+          "actors": "Huỳnh Đông, Hà Hương, Trung Dũng",
+          "soundtracks": "Đổi Thay by Hồ Quang Hiếu",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_8_r5li01.png"
+        },
+        {
+          "id": "f2826a02-89c2-45da-a19a-f0b955903cc7",
+          "name": "The Sweet Apple Tree",
+          "year_created": "2017",
+          "genres": "Drama, Family",
+          "episode_count": "32",
+          "release_year": "2017",
+          "actors": "Hồng Đào, Hữu Vi, Lê Phương",
+          "soundtracks": "Tình Yêu Tương Lai by Đinh Kiến Phong",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_7_wrge4y.png"
+        }
+      ],
+      "date": "2024-04-14T15:26:58.979Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/koya_nayo8g.png"
+    },
+    {
+      "userid": "b3ae09f4-9da8-4e06-b479-87b6da2adfd7",
+      "id": "ab2a8a31-f36e-4245-860a-e73e26a0b174",
+      "type": "Korean",
+      "series": [
+        {
+          "id": "d6e6b9b5-3cbf-4795-a2e3-2979ca490a0a",
+          "name": "Snowdrop",
+          "year_created": "2021",
+          "genres": "Drama, Romance, Historical",
+          "episode_count": "16",
+          "release_year": "2022",
+          "actors": " Jung Hae-in, Kim Ji-soo",
+          "soundtracks": "Friend  by Kim Heewon",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_2_znuvjr.png"
+        }
+      ],
+      "date": "2024-04-14T15:35:08.346Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/shooky_ad0cif.png"
+    },
+    {
+      "userid": "b3ae09f4-9da8-4e06-b479-87b6da2adfd7",
+      "id": "9e207f8d-3113-4dda-a77d-f59b11127b2b",
+      "type": "Chinese",
+      "series": [
+        {
+          "id": "96009624-dcb5-4939-b3d6-96e96d4b2f20",
+          "name": "Put Your Head on My Shoulder",
+          "year_created": "2019",
+          "genres": " Romance, Comedy",
+          "episode_count": "24",
+          "release_year": "2020",
+          "actors": "Xing Fei, Lin Yi, Tang Xiao Tian",
+          "soundtracks": "Qing Chun You Ni by Lin Yi",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_3_fearde.png"
+        },
+        {
+          "id": "a3f3d9eb-8d15-46ed-bc93-6c9fe148fe6d",
+          "name": "Falling into Your Smile",
+          "year_created": "2021",
+          "genres": "Romance, Esports",
+          "episode_count": "31",
+          "release_year": "2021",
+          "actors": "Xu Kai, Cheng Xiao, Liu Yuning",
+          "soundtracks": "Youth Is the Start by Xu Kai",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_n0octo.png"
+        },
+        {
+          "id": "00a7d1bf-7075-4522-b793-6724981fd866",
+          "name": "My Girl",
+          "year_created": "2005",
+          "genres": "Romance, Comedy",
+          "episode_count": "23",
+          "release_year": "2005",
+          "actors": "Zhao Wei, Huang Xiaoming, Fan Bingbing",
+          "soundtracks": "My Girl by Huang Xiaoming",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_9_r07kwm.png"
+        }
+      ],
+      "date": "2024-04-14T15:35:18.971Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/cooky_ev8lly.png"
+    },
+    {
+      "userid": "b3ae09f4-9da8-4e06-b479-87b6da2adfd7",
+      "id": "c5a1d461-06df-47f6-b2fc-e7557b54fb9b",
+      "type": "Philipines",
+      "series": [
+        {
+          "id": "ea520bc1-e587-48b6-a72f-6812ef6266db",
+          "name": "Heneral Luna",
+          "year_created": "2015",
+          "genres": "Historical, War, Drama",
+          "episode_count": "1",
+          "release_year": "2015",
+          "actors": "John Arcilla, Mon Confiado, Arron Villaflor",
+          "soundtracks": "Bayan Ko by Freddie Aguilar",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_4_x73g6k.png"
+        },
+        {
+          "id": "7b6a310c-d785-4906-80e7-5dd46cfcce8c",
+          "name": "Like in the Movies",
+          "year_created": "2021",
+          "genres": " Romance, Drama",
+          "episode_count": "5",
+          "release_year": "2021",
+          "actors": "Joao Constancia, Belle Mariano, Donny Pangilinan",
+          "soundtracks": "Kunwari by Autotelic",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_5_wfxjyj.png"
+        },
+        {
+          "id": "596f8900-75b8-48a9-919a-0730f0a21abd",
+          "name": "The Hows of Us",
+          "year_created": "2018",
+          "genres": "Romance, Drama",
+          "episode_count": "1",
+          "release_year": "2018",
+          "actors": "Kathryn Bernardo, Daniel Padilla, Darren Espanto",
+          "soundtracks": "Kahit Maputi Na Ang Buhok Ko by Moira Dela ",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_1_tzi99h.png"
+        },
+        {
+          "id": "fa63db9b-6e24-4632-883b-f01fc086d461",
+          "name": "On the Wings of Love",
+          "year_created": "2016",
+          "genres": "Romance, Comedy, Drama",
+          "episode_count": "145",
+          "release_year": "2016",
+          "actors": "James Reid, Nadine Lustre, Cherry Pie Picache",
+          "soundtracks": "On the Wings of Love by Kyla",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_6_u0p3sy.png"
+        }
+      ],
+      "date": "2024-04-14T15:35:27.843Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219448/vqxdi0ybgr2okggh2i8f.png"
+    },
+    {
+      "userid": "b3ae09f4-9da8-4e06-b479-87b6da2adfd7",
+      "id": "df81941a-ca03-43cf-ab6f-b909967afefc",
+      "type": "Japanese",
+      "series": [
+        {
+          "id": "8cac6f3c-10ff-4b66-9cd0-e655f028c1d2",
+          "name": "Tokyo Love Story",
+          "year_created": "1991",
+          "genres": "Romance, Drama",
+          "episode_count": "11",
+          "release_year": "1991",
+          "actors": "Honami Suzuki, Yuji Oda, Narumi Yasuda",
+          "soundtracks": "Can You Celebrate? by Namie Amuro",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_8_r5li01.png"
+        }
+      ],
+      "date": "2024-04-14T15:39:30.573Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219289/hrh9bhdyfjrmhisw3yki.png"
+    },
+    {
+      "userid": "d782a5b7-9015-4ff6-97b0-2874034f9f82",
+      "id": "f51cf31c-f6ea-49ed-845d-def726397e3d",
+      "type": "Korean",
+      "series": [
+        {
+          "id": "25027c6c-bbfe-4b56-964d-933d40f868dd",
+          "name": "The K2",
+          "year_created": "2016",
+          "genres": "Action, Thriller, Romance",
+          "episode_count": "16",
+          "release_year": "2016",
+          "actors": "Ji Chang-wook, Im Yoon-ah, Song Yoon-ah",
+          "soundtracks": "Same Day by Kim Bo Hyung",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_7_wrge4y.png"
+        },
+        {
+          "id": "ebdacbdf-1957-4e59-ae3d-f8e303d4e1ed",
+          "name": "The Glory",
+          "year_created": "2022",
+          "genres": "\tRevenge, Psychological thriller",
+          "episode_count": "16",
+          "release_year": "2023",
+          "actors": "Lee Do Hyun,  Song Hye Kyo",
+          "soundtracks": "Prelude To The Glory by Jung Se Rin",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_2_znuvjr.png"
+        }
+      ],
+      "date": "2024-04-14T15:44:38.693Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219039/xlbniakemwxhynn94m9r.png"
+    },
+    {
+      "userid": "d782a5b7-9015-4ff6-97b0-2874034f9f82",
+      "id": "b9547227-b247-473b-98b4-ce79a439e3aa",
+      "type": "Japanese",
+      "series": [
+        {
+          "id": "5d5a2e81-7346-4477-9a2e-2d9ce84b69cb",
+          "name": "1 Litre of Tears",
+          "year_created": "2004",
+          "genres": "Drama, Romance",
+          "episode_count": "11",
+          "release_year": "2005",
+          "actors": "Erika Sawajiri, Ryō Nishikido, Hiroko Yakushimaru",
+          "soundtracks": "Only Human by K",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_3_fearde.png"
+        },
+        {
+          "id": "fe786d19-1556-47e9-b468-b8b613e4f85e",
+          "name": "Raifu",
+          "year_created": "2007",
+          "genres": "Drama",
+          "episode_count": "11",
+          "release_year": "2007",
+          "actors": "Takuya Kimura, Takako Matsu, Miki Nakatani",
+          "soundtracks": "Be Alive by Takuya Kimura",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_n0octo.png"
+        }
+      ],
+      "date": "2024-04-14T15:44:45.905Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/mang_ctmvrb.png"
+    },
+    {
+      "userid": "d782a5b7-9015-4ff6-97b0-2874034f9f82",
+      "id": "a0fb9c30-c904-4eed-a0fe-4d3370e05c50",
+      "type": "Chinese",
+      "series": [
+        {
+          "id": "ababf5c8-d28e-46d0-bc13-86cf2298d747",
+          "name": "Go Ahead",
+          "year_created": "2020",
+          "genres": "Drama, Family",
+          "episode_count": "40",
+          "release_year": "2020",
+          "actors": "Tan Songyun, Song Weilong, Zhang Xincheng",
+          "soundtracks": "Go Ahead OST by Various ",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_9_r07kwm.png"
+        }
+      ],
+      "date": "2024-04-14T15:44:51.390Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/koya_nayo8g.png"
+    },
+    {
+      "userid": "d782a5b7-9015-4ff6-97b0-2874034f9f82",
+      "id": "a605b7dd-45f3-4962-b470-9f219e5c263a",
+      "type": "Thai",
+      "series": [
+        {
+          "id": "b7d5b460-450e-45ec-a93a-99ccc3c3193c",
+          "name": "The Gifted",
+          "year_created": "2018",
+          "genres": "Sci-Fi, Thriller, Mystery",
+          "episode_count": "13",
+          "release_year": "2018",
+          "actors": "Korapat Kirdpan, Wachirawit Ruangwiwat, Apichaya Thongkham ",
+          "soundtracks": "Secret by Ton Thanasit",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_4_x73g6k.png"
+        },
+        {
+          "id": "fbeba60a-0783-45f5-9c7c-ed7a9b1d9c49",
+          "name": "The Crown Princess",
+          "year_created": "2018",
+          "genres": "Romance, Drama",
+          "episode_count": "12",
+          "release_year": "2018",
+          "actors": "Urassaya Sperbund, Nadech Kugimiya, Sara Legge",
+          "soundtracks": "Nai Hua Jai by Bie Sukrit",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282572/frog_5_wfxjyj.png"
+        }
+      ],
+      "date": "2024-04-14T15:44:56.194Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/shooky_ad0cif.png"
+    },
+    {
+      "userid": "d782a5b7-9015-4ff6-97b0-2874034f9f82",
+      "id": "ff99a0c6-8b62-4119-9fc8-f041bba9a8b4",
+      "type": "Vietnamese",
+      "series": [
+        {
+          "id": "0c87f947-52e2-48d1-83d7-90771a4701e0",
+          "name": "Sunshine of the Old Days",
+          "year_created": "2017",
+          "genres": "Romance, Drama",
+          "episode_count": "30",
+          "release_year": "2017",
+          "actors": "Trúc Trinh, Quang Tèo, Mai Hương",
+          "soundtracks": "Sương Trắng Miền Quê Ngoại by Đào Phi ",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_1_tzi99h.png"
+        },
+        {
+          "id": "a736e20f-7741-4bba-97ea-3f707216e1d7",
+          "name": "The Emperor's Wife",
+          "year_created": "2019",
+          "genres": "Historical, Romance, Drama",
+          "episode_count": "48",
+          "release_year": "2019",
+          "actors": "Ngô Kỳ Long, Hoàng Yến Chibi, Trịnh Thảo",
+          "soundtracks": "Tình Yêu Tìm Thấy by Hương Tràm",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_6_u0p3sy.png"
+        }
+      ],
+      "date": "2024-04-14T15:44:59.533Z",
+      "picture": "https://res.cloudinary.com/webappmv/image/upload/v1713219905/cooky_ev8lly.png"
+    },
+    {
+      "userid": "f6cd5792-1bff-49f1-8294-404f2ff6fad3",
+      "id": "a83d7a2c-e614-4501-bdcc-16846a3fb21c",
+      "type": "Tata",
+      "series": [
+        {
+          "id": "89bae7b3-27e0-4a67-a5a8-4032c8656d92",
+          "name": "test1",
+          "year_created": "1111",
+          "genres": "test1",
+          "episode_count": "1",
+          "release_year": "1111",
+          "actors": "test1",
+          "soundtracks": "test1",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_8_r5li01.png"
+        }
+      ],
+      "date": "2024-04-15T22:10:38.977Z",
+      "picture": "http://res.cloudinary.com/webappmv/image/upload/v1713219039/xlbniakemwxhynn94m9r.png",
+      "favourited": false
+    },
+    {
+      "userid": "f6cd5792-1bff-49f1-8294-404f2ff6fad3",
+      "id": "cdf601e9-7471-4ddb-946a-843624bd204f",
+      "type": "RJ",
+      "series": [
+        {
+          "id": "3467f318-3230-450c-9c3e-2a9962578c54",
+          "name": "test2",
+          "year_created": "2222",
+          "genres": "test2",
+          "episode_count": "2",
+          "release_year": "2222",
+          "actors": "test2",
+          "soundtracks": "test2",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713282571/frog_7_wrge4y.png"
+        }
+      ],
+      "date": "2024-04-15T22:14:49.612Z",
+      "picture": "http://res.cloudinary.com/webappmv/image/upload/v1713219289/hrh9bhdyfjrmhisw3yki.png",
+      "favourited": true
+    },
+    {
+      "userid": "f6cd5792-1bff-49f1-8294-404f2ff6fad3",
+      "id": "1e12c2f8-6ab0-4b74-9cf5-710905c6d43a",
+      "type": "Chimmy",
+      "series": [],
+      "date": "2024-04-15T22:17:28.651Z",
+      "picture": "http://res.cloudinary.com/webappmv/image/upload/v1713219448/vqxdi0ybgr2okggh2i8f.png",
+      "favourited": true
+    },
+    {
+      "userid": "0f8962be-850b-42be-842a-3063cfc6d563",
+      "id": "1bbf1015-d13c-4474-b710-44d71f1eb5c7",
+      "type": "Korean",
+      "series": [
+        {
+          "id": "bdc9e61e-1155-4077-9c6b-6f4a9eb58dfc",
+          "name": "Fearless",
+          "year_created": "2021",
+          "genres": "Kpop",
+          "episode_count": "1",
+          "release_year": "2021",
+          "actors": "Le Sserafim",
+          "soundtracks": "Fearless by Le Sserafim",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713285837/badrrpasrq6hh9gzilta.png"
+        }
+      ],
+      "date": "2024-04-16T16:43:12.374Z",
+      "picture": "http://res.cloudinary.com/webappmv/image/upload/v1713285793/ekl2o6uyjwsd3ypksyap.png",
+      "favourited": false
+    },
+    {
+      "userid": "a3ff5ca5-f5b6-4825-86b2-53a4fe5433b8",
+      "id": "88b47ad5-c612-4b06-ab17-f579ed175b89",
+      "type": "Thai Series :)",
+      "series": [
+        {
+          "id": "b6c34793-dbaa-4809-ba02-f1d1c4130799",
+          "name": "Thai Adventure",
+          "year_created": "1967",
+          "genres": "Sci-Fi",
+          "episode_count": "658",
+          "release_year": "1969",
+          "actors": "Tai Toddy",
+          "soundtracks": "Lisa - MONEY",
+          "dramaImage": "http://res.cloudinary.com/webappmv/image/upload/v1713296521/dmggkzm9ttrj88pyq2y4.png",
+          "songImage": "http://res.cloudinary.com/webappmv/image/upload/v1713296614/uzfdhnlyjxkb4ghvt4kj.png"
+        }
+      ],
+      "date": "2024-04-16T19:40:15.977Z",
+      "picture": "http://res.cloudinary.com/webappmv/image/upload/v1713296416/uljamvot5bd5pzu2kjo2.png",
+      "favourited": false
+    }
+  ]
+}
